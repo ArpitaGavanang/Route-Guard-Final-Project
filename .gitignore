@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +22,100 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Ignore all .env files in the root directory and subdirectories
+.env
+**/*.env
+
+# Secrets file
+secrets.yml
+
+# Ignore help files
+HELP.md
+
+# Ignore target directories, except specific ones
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Ignore specific .env files in config and secrets directories
+config/.env
+secrets/.env
+
+
+
+
+
+
+# # Ignore all .env files in the root directory and subdirectories
+# .env
+# secrets.yml
+# ====================
+# HELP.md
+# target/
+# !.mvn/wrapper/maven-wrapper.jar
+# !**/src/main/**/target/
+# !**/src/test/**/target/
+
+# ### STS ###
+# .apt_generated
+# .classpath
+# .factorypath
+# .project
+# .settings
+# .springBeans
+# .sts4-cache
+
+# ### IntelliJ IDEA ###
+# .idea
+# *.iws
+# *.iml
+# *.ipr
+
+# ### NetBeans ###
+# /nbproject/private/
+# /nbbuild/
+# /dist/
+# /nbdist/
+# /.nb-gradle/
+# build/
+# !**/src/main/**/build/
+# !**/src/test/**/build/
+
+# ### VS Code ###
+# .vscode/
+# config/ .env
+# secrets/ .env
+# config/.env
+# secrets/.env
+# .env
+>>>>>>> 740b9ba (saved)
