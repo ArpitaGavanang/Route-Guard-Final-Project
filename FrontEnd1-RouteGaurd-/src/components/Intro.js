@@ -3,9 +3,10 @@ import React from 'react';
 import hemangiImg from 'D:/C DAC NOTES/PG-DAC-Mar24/Final Project/RouteGuardFrontend/mld/src/images/WhatsApp Image 2024-08-17 at 04.11.24_3356fdf2.jpg';
 import arpitaImg from 'D:/C DAC NOTES/PG-DAC-Mar24/Final Project/RouteGuardFrontend/mld/src/images/240340320019.jpg';
 import pic1Img from 'D:/C DAC NOTES/PG-DAC-Mar24/Final Project/RouteGuardFrontend/mld/src/images/pic1.jpg';
-import unknown3Img from 'C:/Users/arpit/FrontEnd1-RouteGaurd-/src/images/Vishal.jpeg.jpg';
-import unknown2Img from 'C:/Users/arpit/FrontEnd1-RouteGaurd-/src/images/IMG_20240425_074033.jpg';
+import unknown3Img from 'C:/Users/arpit/FrontEnd1-RouteGaurd-/FrontEnd1-RouteGaurd-/src/images/Vishal.jpeg.jpg';
+import unknown2Img from 'C:/Users/arpit/FrontEnd1-RouteGaurd-/FrontEnd1-RouteGaurd-/src/images/IMG_20240425_074033.jpg';
 import Layout from './Layout/Layout';
+//C:\Users\arpit\FrontEnd1-RouteGaurd-\FrontEnd1-RouteGaurd-\src\images\240340320019.jpg
 //C:/Users/arpit/FrontEnd1-RouteGaurd-/src/images/IMG_20240425_074033.jpg
 const teamMembers = [
     { name: 'Hemangi Tamore', img: hemangiImg },

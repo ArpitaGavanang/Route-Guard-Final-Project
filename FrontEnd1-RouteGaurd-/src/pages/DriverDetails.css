@@ -107,3 +107,30 @@ h3 {
 .actions button:nth-of-type(2):hover {
     background-color: #c82333;
 }
+.form-card, .table-card {
+    border: none; /* Remove border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .submit-button {
+    background-color: black; /* Change button color to black */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #333; /* Darker shade on hover */
+  }
+  
+  .btn-black {
+    background-color: black;
+    color: white;
+  }
+  

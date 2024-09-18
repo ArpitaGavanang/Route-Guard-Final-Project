@@ -1,0 +1,40 @@
+/* styles.css */
+
+/* Style for the registration container */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: background color for the container */
+  }
+  
+  /* Style for the Card component */
+  .MuiCard-root {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the card */
+    border: none; /* Removes border from the card */
+  }
+  
+  /* Style for TextField components to remove border */
+  .MuiTextField-root .MuiOutlinedInput-root {
+    border: none; /* Removes border from the text field */
+    box-shadow: none; /* Removes shadow from the text field */
+  }
+  
+  /* Optional: Style for the DatePicker input */
+  .MuiDatePicker-root .MuiOutlinedInput-root {
+    border: none; /* Removes border from the DatePicker input */
+    box-shadow: none; /* Removes shadow from the DatePicker input */
+  }
+  
+  /* Style for the Typography component to set color to black */
+  .MuiTypography-root {
+    color: black; /* Changes text color to black */
+  }
+  
+  /* Style for the Button component to set color to black */
+  .MuiButton-root {
+    background-color: black; /* Sets button background color to black */
+    color: white; /* Sets button text color to white */
+  }
+  

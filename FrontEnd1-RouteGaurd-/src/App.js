@@ -39,8 +39,8 @@ function App() {
       aos_init();
     });
   }, []);
-
-  useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
+  useDocTitle("RouteGuard");
+  //useDocTitle("MLD | Molad e Konsult - Bespoke Web and Mobile Applications");
 
   return (
     <>

@@ -1,5 +1,6 @@
 .custom-navbar-toggle {
     border: none;
+    color: #ffff;
   }
   
   /* Ensure Navbar content aligns to the right */
@@ -18,6 +19,7 @@
   }
   .text-underline:hover{
 text-decoration: underline;
+color: #ffff;
   }
   
   @media (max-width: 768px) {
@@ -29,3 +31,7 @@ text-decoration: underline;
       padding: 10px 0;
     }
   }
+
+  .registration-dropdown {
+    color: white; /* Makes the text white */
+}

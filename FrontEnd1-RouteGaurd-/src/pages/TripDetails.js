@@ -7,6 +7,7 @@ import { AgGridReact } from "ag-grid-react";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
 import Layout from "../components/Layout/Layout";
+import "./TripDetails.css";
 
 // Define the validation schema based on the Trip fields
 const tripSchema = Yup.object().shape({

@@ -39,10 +39,10 @@ const NavLinks = () => {
             </Dropdown>
 
             <Dropdown>
-                <Dropdown.Toggle variant="primary" id="dropdown-basic">
+                <Dropdown.Toggle className="registration-dropdown" variant="primary" id="dropdown-basic">
                     Registration
                 </Dropdown.Toggle>
-                <Dropdown.Menu>
+                <Dropdown.Menu >
                     <Dropdown.Item as={HashLink} smooth to="/admin/register">Admin Registration</Dropdown.Item>
                     <Dropdown.Item as={HashLink} smooth to="/customer/register">Customer Registration</Dropdown.Item>
                     <Dropdown.Item as={HashLink} smooth to="/driver/register">Driver Registration</Dropdown.Item>

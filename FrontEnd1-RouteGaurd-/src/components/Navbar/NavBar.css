@@ -1,0 +1,33 @@
+.nav-link:hover, 
+.nav-dropdown-item:hover {
+  background: #ff9421fe;
+  border-radius: 60px;
+  color: #040404 !important; 
+  text-decoration: none;  
+  font-weight: 500;
+}
+
+.bg-dark .dropdown-item {
+  color: #ffffff !important;
+  background-color: black;
+  font-weight: 500;
+}
+
+.bg-dark .dropdown-item:hover {
+  background-color: #FF9321; /* A lighter shade on hover */
+  color: #080808 !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.registration-dropdown .dropdown-toggle {
+  color: white !important; /* Makes the title text white */
+}
+
+.registration-dropdown .dropdown-toggle:hover {
+  color: rgb(10, 10, 10) !important; /* Makes the title text white */
+}
+
+.login-dropdown .dropdown-toggle {
+  color: white !important; /* This will make the dropdown title text white */
+}
